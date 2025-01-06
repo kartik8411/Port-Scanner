@@ -44,6 +44,8 @@ The script will prompt you to input:
     
   - Ending port: The last port number to scan.
 
+    
+
 ##Example:-
 
 - Enter the host to scan (e.g., localhost or IP address): 127.0.0.1
