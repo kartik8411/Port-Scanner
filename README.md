@@ -47,7 +47,9 @@ The script will prompt you to input:
 ##Example:-
 
 Enter the host to scan (e.g., localhost or IP address): 127.0.0.1
+
 Enter the starting port: 20
+
 Enter the ending port: 80
 
  Output Example
