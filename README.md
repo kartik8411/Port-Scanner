@@ -26,14 +26,14 @@ Instructions on how to install and set up the projects
     
 ##Usage
 
- Clone the repository
- 
-git clone https://github.com/yourusername/port-scanner.git
+ - Clone the repository -> git clone https://github.com/yourusername/port-scanner.git
+   
+ - Go to the project directory -> cd portscanner
 
-cd port-scanner
 
-Run the script
-python portscan.py
+
+- Run the script -> python portscanner.py
+
 
 The script will prompt you to input:
 
