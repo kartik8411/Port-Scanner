@@ -11,7 +11,11 @@ Port Scanner is a Python-based tool that allows users to scan a range of ports o
 
 ## Installation
 
-Instructions on how to install and set up the projects
+ - Clone the repository -> git clone https://github.com/kartik8411/Port-Scanner.git
+   
+ - Go to the project directory -> cd portscanner
+
+- Run the script -> python portscanner.py
 
 ##Features
 
@@ -25,15 +29,6 @@ Instructions on how to install and set up the projects
  
     
 ##Usage
-
- - Clone the repository -> git clone https://github.com/kartik8411/Port-Scanner.git
-   
- - Go to the project directory -> cd portscanner
-
-
-
-- Run the script -> python portscanner.py
-
 
 The script will prompt you to input:
 
