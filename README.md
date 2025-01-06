@@ -1,6 +1,6 @@
 #Port Scanner
 
-a brief description of what this project does and who it's for
+Port Scanner is a Python-based tool that allows users to scan a range of ports on a specified host to identify which ports are open. The script uses multithreading to speed up the scanning process, making it more efficient for larger port ranges. After completing the scan, it displays the open ports along with the time taken for the scan, helping network administrators, security professionals, and developers quickly assess the status of networked systems. This tool is useful for anyone needing a lightweight and fast solution for port scanning tasks.
 
 ## Table of contents
 
@@ -56,13 +56,13 @@ The script will prompt you to input:
 
 ##Output Example:-
 
-Port 22 is OPEN
+- Port 22 is OPEN
 
-Port 80 is OPEN
+- Port 80 is OPEN
 
-Port scan completed in 0:00:01.234567
+- Port scan completed in 0:00:01.234567
 
-Open ports: [22, 80]
+- Total Open ports: [22, 80]
 
 ##How it Works
 
