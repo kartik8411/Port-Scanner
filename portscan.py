@@ -70,6 +70,6 @@ print(f"Port scan completed in {elapsed_time}")
 
 # Print only the open ports
 if open_ports:
-    print(f"Open ports: {open_ports}")
+    print(f"Total Open ports: {open_ports}")
 else:
     print("No open ports found.")
