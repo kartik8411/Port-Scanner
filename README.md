@@ -24,7 +24,7 @@ Instructions on how to install and set up the projects
 - Displays the total time taken to complete the scan.
  
     
-Usage
+##Usage
 
  Clone the repository
  
@@ -44,7 +44,7 @@ The script will prompt you to input:
     
   Ending port: The last port number to scan.
 
-Example:-
+##Example:-
 
 Enter the host to scan (e.g., localhost or IP address): 127.0.0.1
 Enter the starting port: 20
@@ -56,13 +56,13 @@ Port 80 is OPEN
 Port scan completed in 0:00:01.234567
 Open ports: [22, 80]
 
-How it Works
+##How it Works
 
-   Input Validation: The script first checks the validity of the host and the port range.
+   - Input Validation: The script first checks the validity of the host and the port range.
    
-   Port Scanning: It scans the specified range of ports on the given host using multithreading for efficient performance.
+   - Port Scanning: It scans the specified range of ports on the given host using multithreading for efficient performance.
    
-   Result Reporting: After the scan is completed, it lists the open ports found and shows the total time taken.
+   - Result Reporting: After the scan is completed, it lists the open ports found and shows the total time taken.
 
 License
 
