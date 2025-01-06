@@ -54,10 +54,14 @@ The script will prompt you to input:
 
 - Enter the ending port: 80
 
--  Output Example
+##Output Example:-
+
 Port 22 is OPEN
+
 Port 80 is OPEN
+
 Port scan completed in 0:00:01.234567
+
 Open ports: [22, 80]
 
 ##How it Works
