@@ -38,21 +38,21 @@ python portscan.py
 The script will prompt you to input:
 
    
-   Host: The target IP address or hostname you want to scan.
+  - Host: The target IP address or hostname you want to scan.
    
-   Starting port: The first port number to scan.
+   - Starting port: The first port number to scan.
     
-  Ending port: The last port number to scan.
+  - Ending port: The last port number to scan.
 
 ##Example:-
 
-Enter the host to scan (e.g., localhost or IP address): 127.0.0.1
+- Enter the host to scan (e.g., localhost or IP address): 127.0.0.1
 
-Enter the starting port: 20
+- Enter the starting port: 20
 
-Enter the ending port: 80
+- Enter the ending port: 80
 
- Output Example
+-  Output Example
 Port 22 is OPEN
 Port 80 is OPEN
 Port scan completed in 0:00:01.234567
