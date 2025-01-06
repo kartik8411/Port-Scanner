@@ -26,7 +26,7 @@ Instructions on how to install and set up the projects
     
 ##Usage
 
- - Clone the repository -> git clone https://github.com/yourusername/port-scanner.git
+ - Clone the repository -> git clone https://github.com/kartik8411/Port-Scanner.git
    
  - Go to the project directory -> cd portscanner
 
