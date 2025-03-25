@@ -32,18 +32,20 @@ pip install pyfiglet colorama
 ```
 
 ## Technologies Used:
-1. ### Python 3
-2. ### socket for network communication
-3. ### pyfiglet to create ASCII banners
-4. ### colorama for adding colors to the terminal output
-5. ### threading for parallel processing
+### 1.  Python 3
+### 2.  socket for network communication
+### 3. pyfiglet to create ASCII banners
+### 4.  colorama for adding colors to the terminal output
+### 5. threading for parallel processing
    
 ## Features
-- ### Scans a specified range of ports on a given host.
-- ### Multi-threading support for faster scanning.
-- ### Displays open ports along with a visual banner and status updates.
-- ### Displays the total time taken to complete the scan.
-- ### Handles invalid inputs for host and port range gracefully.
+
+###  1. ``Port Scanning``: Scans a specified range of ports on a given host to identify open ports.
+###  2. ``Multi-threading``: Supports multi-threading for faster and more efficient port scanning.
+###  3. ``Visual Output``: Displays open ports along with a formatted ASCII banner and real-time status updates.
+###  4. ``Execution Time``: Shows the total time taken to complete the scan.
+###  5. ``Error Handling``: Gracefully handles invalid inputs for host names and port ranges, providing clear error messages.
+
 
 ## Usage
 
@@ -70,11 +72,11 @@ python portscan.py
 
 ## How it Works
 
-   ### - ```Input Validation```: The script first checks the validity of the host and the port range.
+   ### -  ```Input Validation```: The script first checks the validity of the host and the port range.
    
    ### - ```Port Scanning```: It scans the specified range of ports on the given host using multithreading for efficient performance.
    
-   ### - ```Result Reporting```: After the scan is completed, it lists the open ports found and shows the total time taken.
+   ### - ```Result Reporting```: After completing the scan, it lists the open ports found and shows the total time taken.
 
 # License
 
