@@ -2,13 +2,6 @@
 
 ### Port Scanner is a Python-based tool that allows users to scan a range of ports on a specified host to identify which ports are open. The script uses multithreading to speed up the scanning process, making it more efficient for larger port ranges. After completing the scan, it displays the open ports along with the time taken for the scan, helping network administrators, security professionals, and developers quickly assess the status of networked systems. This tool is useful for anyone needing a lightweight and fast solution for port scanning tasks.
 
-## Table of contents
-
-- ### [Installation](#installation).
-- ### [Usage](#usage)
-- ### [Contributing](#contributing)
-- ### [License](#license)
-
 ## Installation
 
  ### 1.  Clone the repository
@@ -26,23 +19,46 @@
   python portscanner.py
   ```
 
-## Features
 
-- ### Scan a range of ports on a target host
- 
-- ### It uses multithreading to perform the scan concurrently for faster results.
- 
-- ### Outputs the open ports found within the specified range.
- 
+## Requirements
+### - Python 3
+### - `pyfiglet` - for generating the ASCII banner.
+### - `colorama` - for coloring the output in the terminal.
+
+### You can install the required dependencies using pip:
+```
+pip install pyfiglet colorama
+```
+
+## Technologies Used:
+1. ### Python 3
+2. ### socket for network communication
+3. ### pyfiglet to create ASCII banners
+4. ### colorama for adding colors to the terminal output
+5. ### threading for parallel processing
+   
+## Features
+- ### Scans a specified range of ports on a given host.
+- ### Multi-threading support for faster scanning.
+- ### Displays open ports along with a visual banner and status updates.
 - ### Displays the total time taken to complete the scan.
- 
-    
+- ### Handles invalid inputs for host and port range gracefully.
+
 ## Usage
 
-### The script will prompt you to input:
+  ### 1. Clone or download this repository to your local machine.
+
+  ### 2. Open a terminal or command prompt and navigate to the directory where the script is located.
+
+  ### 3. Run the script:
+  ```
+python portscanner.py
+```
+
+### 4. The script will prompt you to input:
 
    
-###  - ```Host```:  The target IP address or hostname you want to scan.
+###  - ```Host```: The host you want to scan  (e.g., localhost or IP address like 192.168.1.1).
    
 ###  - ```Starting port```: The first port number to scan.
     
@@ -52,32 +68,32 @@
 
 ## Example:-
 
-- Enter the host to scan (e.g., localhost or IP address): 127.0.0.1
+- ### Enter the host to scan (e.g., localhost or IP address): 192.168.1.1
 
-- Enter the starting port: 20
+- ### Enter the starting port: 20
 
-- Enter the ending port: 80
+- ### Enter the ending port: 80
 
 ## Output Example:-
 
-- Port 22 is OPEN
+- ### Port 22 is OPEN
 
-- Port 80 is OPEN
+- ### Port 80 is OPEN
 
-- Port scan completed in 0:00:01.234567
+- ### Port scan completed in 0:00:01.234567
 
-- Total Open ports: [22, 80]
+- ### Total Open ports: [22, 80]
 
 ## How it Works
 
-   - Input Validation: The script first checks the validity of the host and the port range.
+   ### - ```Input Validation```: The script first checks the validity of the host and the port range.
    
-   - Port Scanning: It scans the specified range of ports on the given host using multithreading for efficient performance.
+   ### - ```Port Scanning```: It scans the specified range of ports on the given host using multithreading for efficient performance.
    
-   - Result Reporting: After the scan is completed, it lists the open ports found and shows the total time taken.
+   ### - ```Result Reporting```: After the scan is completed, it lists the open ports found and shows the total time taken.
 
-License
+#License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+### This project is licensed under the MIT License - see the LICENSE file for details.
 
     
