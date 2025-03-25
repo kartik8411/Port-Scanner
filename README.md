@@ -12,17 +12,17 @@
    
 ### 2.   Go to the project directory
    ```
-    cd portscanner
+    cd portscan.py
    ```
 
 ### 3.  Run the script 
   ```
-  python portscanner.py
+  python portscan.py
   ```
 
 
 ## Requirements
-### - Python 3
+### - `Python 3`
 ### - `pyfiglet` - for generating the ASCII banner.
 ### - `colorama` - for coloring the output in the terminal.
 
@@ -53,7 +53,7 @@ pip install pyfiglet colorama
 
   ### 3. Run the script:
   ```
-python portscanner.py
+python portscan.py
 ```
 
 ### 4. The script will prompt you to input:
@@ -76,7 +76,7 @@ python portscanner.py
    
    ### - ```Result Reporting```: After the scan is completed, it lists the open ports found and shows the total time taken.
 
-#License
+# License
 
 ### This project is licensed under the MIT License - see the LICENSE file for details.
 
